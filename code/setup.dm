@@ -292,6 +292,8 @@ var/MAX_EXPLOSION_RANGE = 14
 #define PASSMACHINE	32 //computers, vending machines, rnd machines
 #define PASSDOOR	64 //not just airlocks, but also firelocks, windoors etc
 
+#define PASSALL 127
+
 
 /*
 	These defines are used specifically with the atom/movable/languages bitmask.
@@ -587,6 +589,7 @@ var/list/global_mutations = list() // list of hidden mutation things
 #define OXY			"oxy"
 #define CLONE		"clone"
 #define HALLOSS		"halloss"
+#define BRAIN 		"brain"
 
 #define STUN		"stun"
 #define WEAKEN		"weaken"
@@ -1336,6 +1339,7 @@ var/proccalls = 1
 #define ORE_PROCESSING_ALLOY 2
 
 //SOUND CHANNELS
+#define CHANNEL_LOBBY				1022
 #define CHANNEL_AMBIENCE			1023
 #define CHANNEL_ADMINMUSIC			1024
 
